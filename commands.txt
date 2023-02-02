@@ -1,0 +1,17 @@
+    1  git --version
+    2  git config --global user.name "no-exist"
+    3  git config --global user.email ptgietl@gmail.com
+    4  git clone https://github.com/no-exist/repo1.git
+    5  cd repo1/
+    6  git add class.txt
+    7  git status
+    8  git rm class.txt
+    9  git status
+   10  git rm -f class.txt
+   11  git status
+   12  git add --all
+   13  git status
+   14  git commit -m "Added information about birds, insects, and reptiles."
+   15  git status
+   16  git push
+   17  history > commands.txt
